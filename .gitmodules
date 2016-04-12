@@ -1,0 +1,12 @@
+[submodule "ggpyjobs"]
+	path = ggpyjobs
+	url = git@github.com:nickelsen/ggpyjobs.git
+	branch = vagrant
+[submodule "ggtracker"]
+	path = ggtracker
+	url = git@github.com:nickelsen/ggtracker.git
+	branch = vagrant
+[submodule "esdb"]
+	path = esdb
+	url = git@github.com:nickelsen/esdb.git
+	branch = vagrant
