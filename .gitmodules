@@ -10,3 +10,7 @@
 	path = esdb
 	url = git@github.com:nickelsen/esdb.git
 	branch = vagrant
+[submodule "sc2reader"]
+	path = sc2reader
+	url = git@github.com:nickelsen/sc2reader.git
+    branch = vagrant
