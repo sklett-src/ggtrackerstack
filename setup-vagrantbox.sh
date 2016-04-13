@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 export DEBIAN_FRONTEND=noninteractive
 
 add-apt-repository ppa:chris-lea/redis-server -y
