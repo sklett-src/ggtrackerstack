@@ -1,16 +1,13 @@
 [submodule "ggpyjobs"]
 	path = ggpyjobs
-	url = git@github.com:nickelsen/ggpyjobs.git
-	branch = vagrant
+	url = git@github.com:dsjoerg/ggpyjobs.git
 [submodule "ggtracker"]
 	path = ggtracker
-	url = git@github.com:nickelsen/ggtracker.git
-	branch = vagrant
+	url = git@github.com:dsjoerg/ggtracker.git
 [submodule "esdb"]
 	path = esdb
-	url = git@github.com:nickelsen/esdb.git
-	branch = vagrant
+	url = git@github.com:dsjoerg/esdb.git
 [submodule "sc2reader"]
 	path = sc2reader
-	url = git@github.com:nickelsen/sc2reader.git
-    branch = vagrant
+	url = git@github.com:ggtracker/sc2reader.git
+    branch = upstream
