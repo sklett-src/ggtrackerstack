@@ -4,6 +4,7 @@ Vagrant.configure("2") do |config|
   config.vm.hostname = "ggtrackerstack"
 
   config.vm.provision "shell", path: "setup-vagrantbox.sh"
+  config.vm.provision "shell", path: "install-ggtrackerstack.sh", privileged: false
 
   config.vm.provider :virtualbox do |vb|
     vb.memory = 1536
