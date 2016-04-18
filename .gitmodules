@@ -1,6 +1,3 @@
-[submodule "ggpyjobs"]
-	path = ggpyjobs
-	url = git@github.com:dsjoerg/ggpyjobs.git
 [submodule "ggtracker"]
 	path = ggtracker
 	url = git@github.com:dsjoerg/ggtracker.git
