@@ -31,6 +31,7 @@ EOF
   bundle exec sequel -m db/migrations -e development config/database.yml && \
   cat db/replays_sq_skill_stat.sql | mysql -u root -D esdb_development && \
   cat db/ggtracker_provider.sql | mysql -u root -D esdb_development && \
+  cat db/add_ai_identities.sql | mysql -u root -D esdb_development && \
   bundle exec rake py:init && \
   bundle exec sequel -m db/migrations -e test config/database.yml && \
   echo RUNNING TESTS && \
