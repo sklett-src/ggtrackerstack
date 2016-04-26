@@ -3,9 +3,10 @@ Project to run the whole ggtracker stack in vagrant
 
 ### Running
  * Make sure you have vagrant+virtualbox installed on your computer
- * Run `git submodule update --init` to pull submodules
+ * Run `git submodule update --init --remote --merge --recursive` to pull the latest version of each submodule
  * Run `vagrant up` to create the virtual box. This will download all required packages and go through the installation process for ggtracker and ESDB (~15 minutes; go make yourself a sandwich)
  * Run `vagrant ssh` to ssh into the vagrant box
+ * Make a note of your vagrant IP: In the text it prints out upon login it says IP address for eth1: 172.28.128.3 (potentially some other ip)
  * Find code in /vagrant `cd /vagrant`
  * Start the application (requires 2 ssh sessions, or run them as background jobs)
    * ESDB: `(cd esdb && foreman start)`
