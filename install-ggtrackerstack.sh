@@ -29,7 +29,7 @@ EOF
   cp -np config/esdb.yml{.example,} && \
   cp -np config/tokens.yml{.example,} && \
   bundle exec sequel -m db/migrations -e development config/database.yml && \
-  cat db/replays_sq_skill_stat.sql | mysql -u root -D esdb_development && \
+  cat db/league_tables.sql | mysql -u root -D esdb_development && \
   cat db/ggtracker_provider.sql | mysql -u root -D esdb_development && \
   cat db/add_ai_identities.sql | mysql -u root -D esdb_development && \
   bundle exec rake py:init && \
