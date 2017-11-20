@@ -1,12 +1,12 @@
 [submodule "ggtracker"]
 	path = ggtracker
-	url = git@github.com:dsjoerg/ggtracker.git
+	url = git@github.com:sklett-src/ggtracker.git
 	branch = master
 [submodule "esdb"]
 	path = esdb
-	url = git@github.com:dsjoerg/esdb.git
+	url = git@github.com:sklett-src/esdb.git
 	branch = master
 [submodule "sc2reader"]
 	path = sc2reader
-	url = git@github.com:ggtracker/sc2reader.git
+	url = git@github.com:sklett-src/sc2reader.git
 	branch = upstream
